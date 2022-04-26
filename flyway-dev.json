@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "name": "poctest",
+  "id": "4b42b534-e38c-4658-8ebc-e9cc9cb54bdb",
+  "databaseType": "SqlServer",
+  "development": {
+    "scriptsFolder": "./schema-model"
+  },
+  "deployment": {
+    "flywayConfFiles": [
+      "./flyway.conf"
+    ]
+  }
+}
